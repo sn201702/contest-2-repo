@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: aquamarine; */
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 28px;
+    color: #464343;
+}
+
+/* .container-fluid {
+    width: 95%;
+    margin: auto;
+    background-color: red;
+} */
+
+/* Utilities */
+.d-block {
+    display: block;
+}
+
+.bold-300 {
+    font-weight: 300;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.border-radius-40 {
+    border-radius: 40px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: #6F6E6E;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #184655;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0e333f;
+}
+
+/* Single blog post */
+.single-blog-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.single-blog-post-image {
+    height: auto;
+    width: 40%;
+}
+
+.single-blog-post-content {
+    width: 50%;
+}
+
+.single-blog-post-meta-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-blog-post-meta-data small {
+    font-size: 25px;
+}
+
+
+/* Single blog post ends */
+
+/* Multi blog post */
+.multi-blog-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-blog-card {
+    max-width: 432px;
+}
+
+.single-blog-card img {
+    width: 432px;
+    height: auto;
+}
+
+.single-blog-card-content {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.single-blog-card-heading {
+    font-size: 25px;
+}
+
+.single-blog-card-meta-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-blog-card-meta-data small {
+    font-size: 18px;
+}
+
+.single-blog-card-para {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+
+
+/* Multi blog post ends */
+
+
+
+/* Footer */
+footer {
+    height: 707px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #9b0a0a;
+    background-image: url('../assets/images/gradient-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.footer-content {
+    width: 40%;
+}
+
+.footer-content h2 {
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.footer-content .header-font-size-reduced {
+    font-size: 28px;
+}
+
+.footer-content {
+    width: 40%;
+    padding-left: 250px;
+}
+
+.footer-image {
+    width: 40%;
+    height: 393px;
+}
